@@ -132,7 +132,7 @@ def get_answer(text, user_key):
     
     data_header = {
         'Content-Type': 'application/json; charset=utf-8',
-        'Authorization': 'Bearer adfb4242e4a...'   # Dialogflow의 Client access token 입력
+        'Authorization': 'Bearer 83fe9fa3586e43bc927f2b58af6850d3'   # Dialogflow의 Client access token 입력
     }
     
     dialogflow_url = 'https://api.dialogflow.com/v1/query?v=20150910'
